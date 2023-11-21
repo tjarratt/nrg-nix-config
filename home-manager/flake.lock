@@ -1,0 +1,239 @@
+{
+  "nodes": {
+    "admiral-cli-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697461170,
+        "narHash": "sha256-HM+ZaeExfYsybb9nJTubPIpZAU75KZI1BC1PtsvLhkE=",
+        "ref": "master",
+        "rev": "0abe6a100718751b697c05137177bad4e8c0ffd9",
+        "revCount": 99,
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
+      },
+      "original": {
+        "ref": "master",
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
+      }
+    },
+    "dyd": {
+      "inputs": {
+        "nixpkgs": [
+          "nrg",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1698099732,
+        "narHash": "sha256-32ZqWTcOPj4FwE3tnlGtqBoK8rP5DX0g0X3CZvcO+yI=",
+        "owner": "synchronal",
+        "repo": "dyd",
+        "rev": "4277fbb24e225f43f109d0c9e97ba5cb98c5b04b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "synchronal",
+        "repo": "dyd",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673956053,
+        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "inputs": {
+        "systems": "systems_2"
+      },
+      "locked": {
+        "lastModified": 1681202837,
+        "narHash": "sha256-H+Rh19JDwRtpVPAWp64F+rlEtxUWBAQW28eAi3SRSzg=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "cfacdce06f30d2b68473a46042957675eebb3401",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "git-mob": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nrg",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1696155761,
+        "narHash": "sha256-mWW0eaks9fQLsWwdqn1sL64AUdXkwYRElWhdhpn3Nsk=",
+        "owner": "code-supply",
+        "repo": "git-mob",
+        "rev": "0047257c7b6984999164c7ee9c4f6ec7c234cfe3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "code-supply",
+        "repo": "git-mob",
+        "type": "github"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1699783872,
+        "narHash": "sha256-4zTwLT2LL45Nmo6iwKB3ls3hWodVP9DiSWxki/oewWE=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "280721186ab75a76537713ec310306f0eba3e407",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nix-vscode-extensions": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": [
+          "nrg",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1696296106,
+        "narHash": "sha256-wwGqdyYrNnThH+pM/8yuXsCfMRl237RlkHbTgaV69Mg=",
+        "owner": "nix-community",
+        "repo": "nix-vscode-extensions",
+        "rev": "b1302e2b5191cec094417fa15725b1025a7189d4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nix-vscode-extensions",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1699343069,
+        "narHash": "sha256-s7BBhyLA6MI6FuJgs4F/SgpntHBzz40/qV0xLPW6A1Q=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ec750fd01963ab6b20ee1f0cb488754e8036d89d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nrg": {
+      "inputs": {
+        "admiral-cli-src": "admiral-cli-src",
+        "dyd": "dyd",
+        "git-mob": "git-mob",
+        "nix-vscode-extensions": "nix-vscode-extensions",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1699994771,
+        "narHash": "sha256-6aRgH/8FprYa4m0q83aBF91hhw+kk5eYE3rxTeFbiGw=",
+        "ref": "refs/heads/main",
+        "rev": "26c0aa1ae79740af23233f2a09bd0119a87ffe04",
+        "revCount": 2176,
+        "type": "git",
+        "url": "file:///Users/tim.jarratt/workspace/nrg"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///Users/tim.jarratt/workspace/nrg"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": [
+          "nrg",
+          "nixpkgs"
+        ],
+        "nrg": "nrg"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_2": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
