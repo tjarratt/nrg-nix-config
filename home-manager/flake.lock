@@ -180,11 +180,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1700480432,
-        "narHash": "sha256-fQCDRUGXOJwFtdatij26Q0Gur1J5Z3zm2gIFm6aSXvQ=",
+        "lastModified": 1700577684,
+        "narHash": "sha256-Vcf76owqeBqDCkUWSw76Q2FUaDyblBkG9gkTgcO0fGo=",
         "ref": "refs/heads/main",
-        "rev": "4a367b0dbaa3ea0b29a20dc76965c909dc04a586",
-        "revCount": 2264,
+        "rev": "d946286cd2c9d5984afc700dd2c1c87c7ca73379",
+        "revCount": 2283,
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },
