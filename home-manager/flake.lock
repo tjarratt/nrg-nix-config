@@ -196,11 +196,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1702471259,
-        "narHash": "sha256-2ZzD44W8dBElJrvsRcpwa4eshl2tA52btD72aIp2/+w=",
+        "lastModified": 1702482630,
+        "narHash": "sha256-uoXrTsfCr0TklCschk59OfL6Bi2rnvc/QIx2Rc8tnRc=",
         "ref": "main",
-        "rev": "ac35da795d9e17f1af1f5a025c60e1f66bcab10b",
-        "revCount": 2770,
+        "rev": "75907074d4d5b7b0abae528c0c1e1539556f791c",
+        "revCount": 2780,
         "type": "git",
         "url": "ssh://git@github.com/Maersk-Global/nrg"
       },
