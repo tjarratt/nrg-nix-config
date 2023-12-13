@@ -6,12 +6,8 @@
       url = "github:nixos/nixpkgs/master";
       follows = "nrg/nixpkgs";
     };
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     nrg = {
-      url = "/Users/tim.jarratt/workspace/nrg";
+      url = "git+ssh://git@github.com/Maersk-Global/nrg?ref=main";
     };
   };
 
@@ -26,18 +22,18 @@
       pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
     in
     {
-      homeConfigurations."tim.jarratt" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."tim.jarratt" = nrg.home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         # Specify your home configuration modules here, for example,
         # the path to your home.nix.
-        modules = [ ./home.nix nrg.homeManager ];
+        modules = [ ./home.nix nrg.homeManagerConfig ];
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
         extraSpecialArgs = {
           fullName = "Tim Jarratt";
-          emailAddress = "tim.jarratt@maersk.com";
+          emailAddress = "tjarratt@gmail.com";
         };
       };
     };
