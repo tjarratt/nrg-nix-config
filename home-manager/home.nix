@@ -44,6 +44,7 @@
   # plain files is through 'home.file'.
   home.file = {
     ".zsh/zsh-z".source = pkgs.zsh-z;
+    ".zshrc.mine".source = ./zshrc;
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
