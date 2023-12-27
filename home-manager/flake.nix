@@ -13,7 +13,6 @@
 
   outputs =
     { nixpkgs
-    , home-manager
     , nrg
     , ...
     }:
@@ -27,10 +26,12 @@
 
         # Specify your home configuration modules here, for example,
         # the path to your home.nix.
-        modules = [ ./home.nix nrg.homeManagerConfig ];
+        modules = [
+          ./home.nix
+          nrg.homeManagerConfig.core
+          nrg.homeManagerConfig.neovim
+        ];
 
-        # Optionally use extraSpecialArgs
-        # to pass through arguments to home.nix
         extraSpecialArgs = {
           fullName = "Tim Jarratt";
           emailAddress = "tjarratt@gmail.com";
