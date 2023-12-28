@@ -24,6 +24,7 @@
 
     pkgs.cloc
     pkgs.flyctl
+    pkgs.pstree
     pkgs.zsh-z
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
