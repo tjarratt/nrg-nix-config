@@ -30,6 +30,7 @@
           ./home.nix
           nrg.homeManagerConfig.core
           nrg.homeManagerConfig.neovim
+          ./my-special-neovim-config.nix
         ];
 
         extraSpecialArgs = {
