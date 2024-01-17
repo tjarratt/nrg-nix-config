@@ -80,11 +80,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1704916829,
-        "narHash": "sha256-GWRZ/PrhxGnNG3ggeKUjfWd7bq20M1g3fBXpMLIrces=",
+        "lastModified": 1704965510,
+        "narHash": "sha256-hlTs+TFctBpESI9Gv3nN+XPQ7KtpgaGlaZkGSBMkQHM=",
         "owner": "code-supply",
         "repo": "rusty-git-mob",
-        "rev": "eefb9c9bec964a129cad5b49e66c4b5e64906511",
+        "rev": "146be9a018367a9ae2ef50292a34c88e9852aeb3",
         "type": "github"
       },
       "original": {
@@ -163,11 +163,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1704964597,
-        "narHash": "sha256-EPpltHW9SnUzrM6rn/iLmC1zDJR35ElQKm4J0Js/+Lw=",
+        "lastModified": 1705498686,
+        "narHash": "sha256-WgHYFC1RWAFODJqexE/IKnRfOJnsnU2S9/OLunGTCIc=",
         "ref": "refs/heads/main",
-        "rev": "818f58fc255b3b2a83a6d278edfa6d5ccdccc0db",
-        "revCount": 3332,
+        "rev": "8a5d364ea922862e22571a67b9aa583b733c91ed",
+        "revCount": 3521,
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },
