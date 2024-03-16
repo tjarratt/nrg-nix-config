@@ -1,22 +1,5 @@
 {
   "nodes": {
-    "admiral-cli-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1700045768,
-        "narHash": "sha256-70FVD0hpNzh5+MmvPCYEYMfFLCdh/7SF1vN2StnL6Ys=",
-        "ref": "master",
-        "rev": "498c664f6cc5625603f8515e3a03131979c54979",
-        "revCount": 103,
-        "type": "git",
-        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
-      },
-      "original": {
-        "ref": "master",
-        "type": "git",
-        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
-      }
-    },
     "dyd": {
       "inputs": {
         "nixpkgs": [
@@ -39,6 +22,22 @@
       }
     },
     "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673956053,
+        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-compat_2": {
       "flake": false,
       "locked": {
         "lastModified": 1673956053,
@@ -114,9 +113,47 @@
         "type": "github"
       }
     },
-    "nix-vscode-extensions": {
+    "libgit2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710194268,
+        "narHash": "sha256-30PAPS3URq6vi139SMLvpe1zrXnGQT1pRpeQ8H6T/Ko=",
+        "owner": "libgit2",
+        "repo": "libgit2",
+        "rev": "bad5620e04cd5bc36b7e9a20b11a1cb493b12ad7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "libgit2",
+        "repo": "libgit2",
+        "type": "github"
+      }
+    },
+    "nix": {
       "inputs": {
         "flake-compat": "flake-compat",
+        "libgit2": "libgit2",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-regression": "nixpkgs-regression"
+      },
+      "locked": {
+        "lastModified": 1709808984,
+        "narHash": "sha256-bfFe38BkoQws7om4gBtBWoNTLkt9piMXdLLoHYl+vBQ=",
+        "owner": "NixOS",
+        "repo": "nix",
+        "rev": "f8170ce9f119e5e6724eb81ff1b5a2d4c0024000",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "2.20.5",
+        "repo": "nix",
+        "type": "github"
+      }
+    },
+    "nix-vscode-extensions": {
+      "inputs": {
+        "flake-compat": "flake-compat_2",
         "flake-utils": "flake-utils",
         "nixpkgs": [
           "nrg",
@@ -139,11 +176,43 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1707994509,
-        "narHash": "sha256-bJb8O9bbWfv0UNUQCKzpD2W0HXakAMkr+FIlowYy4is=",
+        "lastModified": 1705033721,
+        "narHash": "sha256-K5eJHmL1/kev6WuqyqqbS1cdNnSidIZ3jeqJ7GbrYnQ=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4f1af5ac1691dc40c78a12a2279d2a368a508ac1",
+        "rev": "a1982c92d8980a0114372973cbdfe0a307f1bdea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-regression": {
+      "locked": {
+        "lastModified": 1643052045,
+        "narHash": "sha256-uGJ0VXIhWKGXxkeNnq4TvV3CIOkUJ3PAoLZ3HMzNVMw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "215d4d0fd80ca5163643b03a33fde804a29cc1e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "215d4d0fd80ca5163643b03a33fde804a29cc1e2",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1709632399,
+        "narHash": "sha256-TWng+rhCSmQzqgnuhVmF+94JCTvZotIqsKc0g5GTj3I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ee411f2c1ba132a5d96199b6e3132611b7443293",
         "type": "github"
       },
       "original": {
@@ -155,19 +224,18 @@
     },
     "nrg": {
       "inputs": {
-        "admiral-cli-src": "admiral-cli-src",
         "dyd": "dyd",
         "git-mob": "git-mob",
         "home-manager": "home-manager",
+        "nix": "nix",
         "nix-vscode-extensions": "nix-vscode-extensions",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1708681610,
-        "narHash": "sha256-tptgxzwOrYLtEFTLiJ5Ywe+QgSmzMAUqOs/basR6AE0=",
-        "ref": "refs/heads/main",
-        "rev": "502e63ad5674445c1a865cfa84b7fe591a0c3a66",
-        "revCount": 4478,
+        "dirtyRev": "cd7e66b17118857e216b342824d0a4cb0270bc84-dirty",
+        "dirtyShortRev": "cd7e66b-dirty",
+        "lastModified": 1710518263,
+        "narHash": "sha256-+YXfYrkefdC10estuI6dfMBZwho1JEggd6G2iOnXUlM=",
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },
