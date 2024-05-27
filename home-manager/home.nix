@@ -55,7 +55,6 @@
   home.file = {
     ".zsh/zsh-z".source = pkgs.zsh-z;
     ".zshrc.mine".source = ./zshrc;
-    ".emacs.d".source = ./emacs.d;
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
