@@ -27,6 +27,14 @@
     pkgs.pstree
     pkgs.zsh-z
     pkgs.postgresql
+    pkgs.inetutils #provides telnet
+
+    #emacs ahoy-hoy
+    pkgs.emacs29
+
+    pkgs.bat # fancy alternative for cat
+    pkgs.httpie # much nicer than curl or wget
+    pkgs.inetutils # sometimes you just want to use telnet, all right ?
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -47,6 +55,7 @@
   home.file = {
     ".zsh/zsh-z".source = pkgs.zsh-z;
     ".zshrc.mine".source = ./zshrc;
+    ".emacs.d".source = ./emacs.d;
 
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
