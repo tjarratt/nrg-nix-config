@@ -28,6 +28,7 @@
         # the path to your home.nix.
         modules = [
           ./home.nix
+          ./git.nix
           nrg.homeManagerConfig.core
           nrg.homeManagerConfig.neovim
           ./my-special-neovim-config.nix

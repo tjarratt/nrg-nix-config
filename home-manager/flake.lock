@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "admiral-cli-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700045768,
+        "narHash": "sha256-70FVD0hpNzh5+MmvPCYEYMfFLCdh/7SF1vN2StnL6Ys=",
+        "ref": "master",
+        "rev": "498c664f6cc5625603f8515e3a03131979c54979",
+        "revCount": 103,
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
+      },
+      "original": {
+        "ref": "master",
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/admiral-cli"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -101,33 +118,34 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1715065265,
-        "narHash": "sha256-jNgmdkaJ2yTETlwpWF6ZIc685XGMWq6GjtmXyGZDZzs=",
+        "lastModified": 1720529433,
+        "narHash": "sha256-cIExDRdCblQ8gDOdw7KiV5VpK90wVGXjKZr/JGoS8tc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b009fbe8641fe169c0cec22940587d07ad0066b1",
+        "rev": "f571ea25a6d088f0416d4a9323d9dd9a6edd0088",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "master",
+        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
     },
     "nrg": {
       "inputs": {
+        "admiral-cli-src": "admiral-cli-src",
         "git-mob": "git-mob",
         "home-manager": "home-manager",
         "nix-vscode-extensions": "nix-vscode-extensions",
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1716802870,
-        "narHash": "sha256-wkimcUI/qjo4HOvGe+VDY/g5QiO9x+AlGihqEYjFRIs=",
+        "lastModified": 1723822670,
+        "narHash": "sha256-/0iQHPFOLGvWAorkvHj96scPzgHh3Zoieue178SIxm4=",
         "ref": "refs/heads/main",
-        "rev": "b420c7171e79fe1a8b8b8a8485161479ff83d79d",
-        "revCount": 7008,
+        "rev": "218c4f0dd5b24f6cd961ea3f09054072d4d6ed4c",
+        "revCount": 9299,
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },

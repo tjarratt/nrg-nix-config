@@ -23,6 +23,7 @@
     # pkgs.hello
 
     pkgs.cloc
+    pkgs.delta
     pkgs.flyctl
     pkgs.pstree
     pkgs.zsh-z
@@ -32,6 +33,7 @@
     #emacs ahoy-hoy
     pkgs.emacs29
 
+    pkgs.exercism
     pkgs.bat # fancy alternative for cat
     pkgs.httpie # much nicer than curl or wget
     pkgs.inetutils # sometimes you just want to use telnet, all right ?
