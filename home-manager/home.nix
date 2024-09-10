@@ -88,4 +88,12 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  # there are many nvim configurations but this is mine
+  programs.neovim = {
+    plugins = with pkgs.vimPlugins; [
+      which-key-nvim
+      nvim-ufo
+    ];
+  };
 }
