@@ -38,6 +38,8 @@
     pkgs.httpie # much nicer than curl or wget
     pkgs.inetutils # sometimes you just want to use telnet, all right ?
 
+    pkgs.jira-cli-go
+
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
