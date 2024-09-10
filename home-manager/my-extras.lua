@@ -4,7 +4,6 @@
 --
 -- =========================
 
-
 math.randomseed(os.time())
 
 local vanilla_dictionary = {}
