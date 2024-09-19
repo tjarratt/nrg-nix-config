@@ -7,8 +7,7 @@
       follows = "nrg/nixpkgs";
     };
     nrg = {
-      # url = "/Users/tim.jarratt/workspace/nrg";
-      url = "git@github.com:Maersk-global/nrg.git";
+      url = "/Users/tim.jarratt/workspace/nrg";
     };
   };
 
