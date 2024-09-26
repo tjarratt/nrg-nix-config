@@ -21,6 +21,7 @@
     pkgs.arc-browser
     pkgs.cloc
     pkgs.delta
+    pkgs.fish
     pkgs.flyctl
     pkgs.pstree
     pkgs.zsh-z
