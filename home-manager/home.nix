@@ -18,11 +18,8 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-    pkgs.arc-browser
     pkgs.cloc
     pkgs.delta
-    pkgs.fish
-    pkgs.fishPlugins.z
     pkgs.flyctl
     pkgs.pstree
     pkgs.zsh-z
@@ -83,6 +80,21 @@
   # if you don't want to manage your shell through Home Manager.
   home.sessionVariables = {
     # EDITOR = "emacs";
+  };
+
+  programs.fish = {
+    enable = true;
+
+    shellAliases = {
+      gst = "git status";
+    };
+
+    plugins = [
+      {
+        name = pkgs.fishPlugins.z.name;
+        src = pkgs.fishPlugins.z.src;
+      }
+    ];
   };
 
   # Let Home Manager install and manage itself.

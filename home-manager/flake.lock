@@ -118,11 +118,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1726042813,
-        "narHash": "sha256-LnNKCCxnwgF+575y0pxUdlGZBO/ru1CtGHIqQVfvjlA=",
+        "lastModified": 1727335715,
+        "narHash": "sha256-1uw3y94dA4l22LkqHRIsb7qr3rV5XdxQFqctINfx8Cc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "159be5db480d1df880a0135ca0bfed84c2f88353",
+        "rev": "28b5b8af91ffd2623e995e20aee56510db49001a",
         "type": "github"
       },
       "original": {
@@ -141,11 +141,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1727331756,
-        "narHash": "sha256-ycXoxmLOVURa89hUGaoh4VL9w4OWr4YDjpHm3Dkez+0=",
+        "lastModified": 1727443502,
+        "narHash": "sha256-Kakk0sYsb38VM7spInipG7Omp/CUeQ2uGt+XUSsvCZc=",
         "ref": "refs/heads/main",
-        "rev": "819a532714c0ad1d9ad1fe392f8d5856c1f990d0",
-        "revCount": 10116,
+        "rev": "ae5faa4c81dc28db8127c830cb02901ec4b21762",
+        "revCount": 10139,
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },
