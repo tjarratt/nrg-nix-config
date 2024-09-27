@@ -22,6 +22,7 @@
     pkgs.cloc
     pkgs.delta
     pkgs.fish
+    pkgs.fishPlugins.z
     pkgs.flyctl
     pkgs.pstree
     pkgs.zsh-z
