@@ -26,8 +26,11 @@
     pkgs.postgresql
     pkgs.inetutils #provides telnet
 
-    #emacs ahoy-hoy
+    # emacs ahoy-hoy
     pkgs.emacs29
+
+    # data engineering
+    pkgs.python3
 
     pkgs.exercism
     pkgs.bat # fancy alternative for cat
