@@ -93,6 +93,27 @@
         "type": "github"
       }
     },
+    "mbc-build": {
+      "inputs": {
+        "nixpkgs": [
+          "nrg",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1730122288,
+        "narHash": "sha256-DQAoEiLTYTvYxc9eIGtc4+M3lZ7n3/WlQYn8MQZ48p8=",
+        "ref": "refs/heads/main",
+        "rev": "b0c058a10abfcb4f5fe06db5c8b91d3e15a828a7",
+        "revCount": 482,
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/mbc-build"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/Maersk-Global/mbc-build"
+      }
+    },
     "nix-vscode-extensions": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -137,15 +158,16 @@
         "admiral-cli-src": "admiral-cli-src",
         "git-mob": "git-mob",
         "home-manager": "home-manager",
+        "mbc-build": "mbc-build",
         "nix-vscode-extensions": "nix-vscode-extensions",
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1729589627,
-        "narHash": "sha256-+xClBvVur7Zg8expL70OQqhH6LShNYAJ3ptd9aUyID4=",
+        "lastModified": 1730398722,
+        "narHash": "sha256-jDUFJducYzj8ti8nW+xpMUO9HmXEtLLN18NubjbIBd0=",
         "ref": "refs/heads/main",
-        "rev": "cc248bc054f94fd0d0d1de9cd1714076986e2b88",
-        "revCount": 10496,
+        "rev": "2357c90016443d261f4af2ae102d05ebfb0df084",
+        "revCount": 10799,
         "type": "git",
         "url": "file:///Users/tim.jarratt/workspace/nrg"
       },
