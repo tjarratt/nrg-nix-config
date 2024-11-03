@@ -1,1 +1,1 @@
-/nix/store/hi6r8bbc717cd02ayykrqg2qz24sgd7c-home-manager-files/.config/fish/conf.d/plugin-fishplugin-z-unstable-2022-04-08.fish
+/nix/store/kibrmicbm2z3pplv50m83f9qmhqk4d3c-home-manager-files/.config/fish/conf.d/plugin-fishplugin-z-unstable-2022-04-08.fish
