@@ -24,7 +24,7 @@
     pkgs.pstree
     pkgs.zsh-z
     pkgs.postgresql
-    pkgs.inetutils #provides telnet
+    pkgs.inetutils # provides telnet
 
     # emacs ahoy-hoy
     pkgs.emacs29

@@ -1,5 +1,3 @@
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
 -- =========================
 --
 -- code folding
@@ -13,6 +11,7 @@ vim.o.foldlevelstart = 99
 vim.o.foldenable = true
 
 require('ufo').setup()
+
 -- =========================
 --
 -- random strings
@@ -50,38 +49,6 @@ function insert_random_string()
    vim.fn.feedkeys(string, 'n')
    vim.api.nvim_input('<ESC>')
 end
-
--- =========================
---
--- UFO
---
--- =========================
-
--- capabilities.textDocument.foldingRange = {
---     dynamicRegistration = false,
---     lineFoldingOnly = true
--- }
---
--- vim.o.foldcolumn = '1' -- '0' is not bad
--- vim.foldlevel = 99
--- vim.o.foldlevelstart = 99
--- vim.o.foldenable = true
---
--- require('ufo').setup()
---
--- --local language_servers = require("lspconfig").util.available_servers() -- or list servers manually like {'gopls', 'clangd'}
--- local language_servers = { 'elixirls' }
--- for _, ls in ipairs(language_servers) do
--- 	require('lspconfig')[ls].setup({
--- 		capabilities = capabilities,
--- 		settings = {
--- 			Lua = {
--- 				diagnostics = { globals = { 'vim' } }
--- 			}
--- 		}
--- 		-- you can add other fields for setting up lsp server in this table
--- 	})
--- end
 
 
 -- =========================
